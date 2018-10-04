@@ -2,7 +2,7 @@ os: osx
 osx_image: xcode10
 language: swift
 script: 
-  -fastlane BullsEye
+  - fastlane BullsEye
 sudo: enabled
 xcode_project: BullsEye.xcodeproj 
 xcode_scheme: BullsEyeTests
