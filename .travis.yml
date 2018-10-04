@@ -6,8 +6,7 @@ script:
   BullsEye.xcodeproj -scheme BullsEye -destination 
   "platform=iOS Simulator,name=iPhone 7,OS=10.3" CODE_SIGN_IDENTITY="" CODE_SIGNING_REQUIRED=NO ONLY_ACTIVE_ARCH=NO -quiet
 sudo: enabled
-xcode_project: BullsEye.xcodeproj # path to your xcodeproj folder
+xcode_project: BullsEye.xcodeproj 
 xcode_scheme: BullsEyeTests
-# xcode_destination: platform=iOS Simulator,OS=10.1,name=iPad Pro (9.7-inch)
 
 
