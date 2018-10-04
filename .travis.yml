@@ -4,3 +4,5 @@ language: swift
 sudo: enabled
 env:
   - XCWORKSPACE="BullsEye.xcodeproj"
+
+  script: bundle exec rake build && bundle exec rake builddoc
