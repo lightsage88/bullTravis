@@ -1,6 +1,6 @@
 os: osx
 language: swift
-script: xcodebuild test -workspace BullsEye.xcodeproj -scheme BullsEyeTests -sdk iphonesimulator ONLY_ACTIVE_ARCH=NO
+script: xcodebuild test -workspace BullsEyeWorkSpace.xcworkspace -scheme BullsEyeTests -sdk iphonesimulator ONLY_ACTIVE_ARCH=NO
 
 
 
