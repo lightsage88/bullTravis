@@ -2,3 +2,5 @@ os: osx
 osx_image: xcode10
 language: swift
 sudo: enabled
+env:
+  - XCWORKSPACE="BullsEye.xcodeproj"
