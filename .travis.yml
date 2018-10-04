@@ -2,7 +2,8 @@ os: osx
 osx_image: xcode10
 language: swift
 sudo: enabled
-env:
-  - XCWORKSPACE="BullsEye.xcodeproj"
+xcode_project: BullsEye.xcodeproj # path to your xcodeproj folder
+xcode_scheme: BullsEyeTests
+xcode_destination: platform=iOS Simulator,OS=10.1,name=iPad Pro (9.7-inch)
 
-  script: bundle exec rake build && bundle exec rake builddoc
+
