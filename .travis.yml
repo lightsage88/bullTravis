@@ -1,10 +1,6 @@
 os: osx
-osx_image: xcode10
 language: swift
-script: 
-  - fastlane BullsEye
-sudo: enabled
-xcode_project: BullsEye.xcodeproj 
-xcode_scheme: BullsEyeTests
+script: xcodebuild test -workspace BullsEye.xcodeproj -scheme BullsEyeTests -sdk iphonesimulator ONLY_ACTIVE_ARCH=NO
+
 
 
